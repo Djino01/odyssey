@@ -1,5 +1,5 @@
 .about {
-	padding-top: 50px;
+	padding-top: 186px;
 	background-color: #040509;
 	background-image: url(../img/about/bg.png);
 	background-repeat: no-repeat;
@@ -167,6 +167,7 @@
 }
 @media (max-width: 1010px) {
 	.about {
+		padding-top: 120px;
 		border-radius: 30px;
 		&__bottom {
 			margin-top: 60px;
@@ -231,7 +232,7 @@
 }
 @media (max-width: 760px) {
 	.about {
-		padding-top: 70px;
+		padding-top: 100px;
 		border-radius: 0px;
 		background-image: url(../img/about/bg-mobile.png);
 		&__title {

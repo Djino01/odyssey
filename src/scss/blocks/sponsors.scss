@@ -12,9 +12,31 @@
 		}
 	}
 	&__img {
-		margin-left: -53px;
-		margin-right: -60px;
+		margin-left: -25px;
+		margin-right: -38px;
 		margin-bottom: -235px;
+	}
+	&__wrap {
+		position: relative;
+	}
+	&__link {
+		position: absolute;
+		width: 373px;
+		height: 373px;
+		top: 0;
+		&_1 {
+			top: 38px;
+			left: 26px;
+		}
+		&_2 {
+			top: 38px;
+			right: -20px;
+		}
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
 	}
 	&__bottom {
 		display: flex;
@@ -49,6 +71,18 @@
 				margin-top: 24px;
 			}
 		}
+		&__link {
+			width: 240px;
+			height: 240px;
+			&_1 {
+				top: 50px;
+				left: 25px;
+			}
+			&_2 {
+				top: 50px;
+				right: 0px;
+			}
+		}
 		&__bottom {
 			padding: 48px 4px;
 			bottom: -80px;
@@ -64,6 +98,16 @@
 			margin-left: -24px;
 			margin-right: -24px;
 			margin-bottom: -150px;
+		}
+		&__link {
+			width: 160px;
+			height: 160px;
+			&_1 {
+				top: 88px;
+			}
+			&_2 {
+				top: 88px;
+			}
 		}
 		&__bottom {
 			padding: 33.5px 4px;
@@ -104,6 +148,22 @@
 				position: relative;
 				left: -24px;
 			}
+		}
+		&__link {
+			width: 90px;
+			height: 90px;
+			&_1 {
+				top: 25px;
+				left: 0px;
+			}
+			&_2 {
+				top: 25px;
+				right: -10px;
+			}
+		}
+		&__wrap {
+			max-width: 330px;
+			margin: 0 auto;
 		}
 		&__bottom {
 			padding: 0;
